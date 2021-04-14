@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(41, 41, 41);
+    font-weight: lighter;
+}
+
+#topdiv {
+    padding: 40px;
+    border: solid 0px gainsboro;
+    background-color: whitesmoke;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+}
+
+#profile_pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.card {
+    
+}
