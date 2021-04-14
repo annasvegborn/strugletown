@@ -5,7 +5,11 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    margin-left: 20px;
+}
 h3 {
+
     color: rgb(41, 41, 41);
     font-weight: lighter;
 }
@@ -14,17 +18,75 @@ h3 {
     padding: 40px;
     border: solid 0px gainsboro;
     background-color: whitesmoke;
-    height: 250px;
+    height: 220px;
     align-items: center;
     text-align: center;
 }
 
+#bottomDiv {
+    padding: 30px;
+    border: solid 0px gainsboro;
+    background-color: whitesmoke;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    /*position: fixed;
+    bottom: 0; */
+}
+
+.row {
+    height: 400px;
+}
+
 #profile_pic {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 
 .card {
-    
+    border: solid 0px gainsboro;
+    height: 350px;
+    width: 220px;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 0 0px 12px 2px rgba(34, 61, 95, 0.15);
+    float:left;
+}
+
+.cardPhoto {
+    align-items: center;
+    border: solid 0px gainsboro;
+    height: 130px;
+    width: 180px;
+    border-radius: 20px;
+    margin: 20px 20px 0px 20px;
+}
+
+.cardHeadline {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.cardDescription {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.linkButton {
+    align-items: center;
+    background-color: whitesmoke;
+    border: solid 0px gainsboro;
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    margin: 20px 20px 0px 20px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.linkText {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
