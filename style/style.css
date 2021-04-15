@@ -17,7 +17,9 @@ h3 {
 
 a {
     background-color: white;
-    margin: 0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
     font-family: Verdana;
     font-size: 12px;
     font-weight: lighter;
@@ -73,10 +75,10 @@ a {
 
 .card {
     border: solid 0px gainsboro;
-    height: 350px;
-    width: 180px;
-    border-radius: 30px;
-    margin: 10px;
+    height: 300px;
+    width: 160px;
+    border-radius: 25px;
+    margin: 5px;
     box-shadow: 0 0px 12px 2px rgba(34, 61, 95, 0.15);
     /*float:left;*/
 }
@@ -84,21 +86,22 @@ a {
 .cardPhoto {
     align-items: center;
     border: solid 0px gainsboro;
-    height: 80% px;
+    height: 40%;
     width: 80%;
     border-radius: 20px;
-    margin: 20px 20px 0px 20px;
+    margin: 10% 10% 0 10%;
 }
 
 .cardHeadline {
     text-align: center;
     /* margin-left: 20px; */
+    margin: 2px;
     font-weight: bold;
 }
 
 .cardDescription {
     text-align: center;
-    margin: 4px;
+    margin: 5%;
     font-size: 14px;
 }
 
@@ -106,13 +109,14 @@ a {
     align-items: center;
     background-color: whitesmoke;
     border: solid 0px gainsboro;
-    height: 60px;
+    height: 15%;
     width: 80%;
-    border-radius: 20px;
-    margin: 20px 20px 0px 20px;
+    border-radius: 15px;
+    margin: 10% 10% 0% 10%;
     position:relative;
-    bottom: -30px;
+    bottom: -7%;
     float: none;
+
 }
 
 .linkText {
