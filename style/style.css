@@ -15,8 +15,17 @@ h3 {
     font-weight: lighter;
 }
 
+a {
+    background-color: white;
+    margin: 0;
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
 #topdiv {
-    padding: 40px;
+    padding: 80px;
+    padding-top: 40px;
     border: solid 0px gainsboro;
     background-color: whitesmoke;
     height: 220px;
@@ -31,18 +40,29 @@ h3 {
     height: 20px;
     align-items: center;
     text-align: center;
+    display: block;
+    margin-top:40px;
     /*position: fixed;
     bottom: 0; */
 }
 
 #tabs {
     background-color: whitesmoke;
-    border: solid 2px gainsboro;
-    height: 20px;
+    border: solid 0px white;
+    height: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.pageTabs {
+    color: black;
+    text-align: center;
+    text-decoration: none;
 }
 
 .row {
-    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #profile_pic {
@@ -58,7 +78,7 @@ h3 {
     border-radius: 30px;
     margin: 10px;
     box-shadow: 0 0px 12px 2px rgba(34, 61, 95, 0.15);
-    float:left;
+    /*float:left;*/
 }
 
 .cardPhoto {
@@ -88,12 +108,14 @@ h3 {
     width: 180px;
     border-radius: 20px;
     margin: 20px 20px 0px 20px;
-    position: absolute;
-    bottom: 50px;
+    position:relative;
+    bottom: -30px;
+    float: none;
 }
 
 .linkText {
     text-align: center;
-    margin-top: 20px;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
 }
