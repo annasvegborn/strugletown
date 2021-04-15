@@ -15,24 +15,16 @@ h3 {
     font-weight: lighter;
 }
 
-a {
-    background-color: white;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px 10px 0 0;
-    font-family: Verdana;
-    font-size: 12px;
-    font-weight: lighter;
-}
+
 
 #topdiv {
     padding: 80px;
     padding-top: 40px;
-    border: solid 0px gainsboro;
     background-color: whitesmoke;
     height: 220px;
     align-items: center;
     text-align: center;
+
 }
 
 #bottomDiv {
@@ -50,16 +42,30 @@ a {
 
 #tabs {
     background-color: whitesmoke;
-    border: solid 0px white;
-    height: 15px;
+    height: 16px;
     align-items: center;
     text-align: center;
+    border: solid 0px whitesmoke;
 }
 
 .pageTabs {
     color: black;
     text-align: center;
     text-decoration: none;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 10px 10px 0 0;
+    font-family: Verdana;
+    font-size: 12px;
+    border: solid 0px whitesmoke;
+    margin-bottom: 1px;
+}
+
+.activeTab {
+    font-weight: bold;
+    font-size: 18;
 }
 
 .row {
@@ -82,6 +88,7 @@ a {
     border-radius: 25px;
     margin: 5px;
     box-shadow: 0 0px 12px 2px rgba(34, 61, 95, 0.15);
+    position: relative;
     /*float:left;*/
 }
 
@@ -116,8 +123,9 @@ a {
     border-radius: 15px;
     margin: 10% 10% 0% 10%;
     position:relative;
-    bottom: -7%;
-    float: none;
+    bottom: 15px;
+    position: absolute;
+    /*float: none;*/
 
 }
 
@@ -126,4 +134,5 @@ a {
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
+    font-size: 15px;
 }

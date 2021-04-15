@@ -12,52 +12,51 @@
       <h3>Welcome to the home page for all Strugle related things!</h3>
     </div>
     <div id="tabs">
-      <div class="tab">
-        <a href="cambridge.html" class="pageTabs">Cambridge</a>
-        <a href="malmo.html" class="pageTabs">Malmö</a>
-        <a href="comics.html" class="pageTabs">Comics</a>
-        <a href="index.html" class="pageTabs">All</a>
-      </div>
+        <button class="pageTabs" onclick="showCards('cambridgeCard')">Cambridge</button>
+        <button class="pageTabs" onclick="showCards('malmoCard')">Malmö</button>
+        <button class="pageTabs" onclick="showCards('comicCard')">Comics</button>
+        <button class="pageTabs activeTab" onclick="showCards('card')">All</button>
     </div>
     <h2>Shop</h2>
     <div class="row">
-      <div class="card">
+      <div class="card comicCard">
         <img class="cardPhoto" src="photo_1.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
+        <p class="cardHeadline">Shop Cambridge</p>
         <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
+      </div>
+      <div class="card malmoCard">
+        <img class="cardPhoto" src="photo_2.png" alt="">
+        <p class="cardHeadline">Shop Malmö</p>
+        <p class="cardDescription">This is my portfolio.</p>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
+      </div>
+      <div class="card cambridgeCard">
+        <img class="cardPhoto" src="photo_3.png" alt="">
+        <p class="cardHeadline">Cambridge Instagram</p>
+        <p class="cardDescription">This is my portfolio.</p>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
+      </div>
+      <div class="card comicCard">
+        <img class="cardPhoto" src="photo_1.png" alt="">
+        <p class="cardHeadline">Shop comics</p>
+        <p class="cardDescription">This is my portfolio.</p>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
       </div>
       <div class="card">
         <img class="cardPhoto" src="photo_2.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
+        <p class="cardHeadline">Strugletown Instagram</p>
         <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
       </div>
-      <div class="card">
+      <div class="card cambridgeCard">
         <img class="cardPhoto" src="photo_3.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
+        <p class="cardHeadline">Facebook</p>
         <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
-      </div>
-      <div class="card">
-        <img class="cardPhoto" src="photo_1.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
-        <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
-      </div>
-      <div class="card">
-        <img class="cardPhoto" src="photo_2.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
-        <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
-      </div>
-      <div class="card">
-        <img class="cardPhoto" src="photo_3.png" alt="">
-        <p class="cardHeadline">Portfolio</p>
-        <p class="cardDescription">This is my portfolio.</p>
-        <div class=linkButton><p class="linkText">Go to page.</p></div>
+        <div class=linkButton><p class="linkText">Go to page</p></div>
       </div>
     </div>
     <div id=bottomDiv>Made by Strugle herself.</div>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
