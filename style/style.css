@@ -135,7 +135,10 @@ h3 {
 
 .cardDescription {
     text-align: center;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-size: 14px;
 }
 
