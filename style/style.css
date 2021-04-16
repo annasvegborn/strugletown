@@ -95,8 +95,8 @@ h3 {
 .cardPhoto {
     align-items: center;
     border: solid 0px gainsboro;
-    height: 40%;
-    width: 80%;
+    height: 130px;
+    width: 130px;
     border-radius: 20px;
     margin: 10% 10% 0 10%;
 }
