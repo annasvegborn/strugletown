@@ -64,7 +64,7 @@ h3 {
 
 #tabs {
     background-color: whitesmoke;
-    height: 25px;
+    height: 30px;
     align-items: center;
     text-align: center;
     border: solid 0px whitesmoke;
@@ -76,11 +76,11 @@ h3 {
     text-decoration: none;
     background-color: white;
     margin: 5px;
-    padding: 10px;
+    padding: 12px;
     padding-bottom: 0;
     border-radius: 10px 10px 0 0;
     font-family: Verdana;
-    font-size: 12px;
+    font-size: 15px;
     border: solid 0px whitesmoke;
     margin-bottom: 1px;
 }
