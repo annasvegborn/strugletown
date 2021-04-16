@@ -1,0 +1,75 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 0px;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Garamond;
+    line-height: 150%;
+    margin-top: 3px;
+}
+
+.topPhotos {
+    width: 200px;
+    height: 200px;
+}
+
+#goBack{
+    max-width: 20%;
+}
+
+.photosInText {
+    height: 300px;
+}
+
+.row {
+    text-align: justify;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#tabs {
+    background-color: whitesmoke;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border: solid 0px whitesmoke;
+}
+
+#topdiv {
+    padding: 20px;
+    padding-top: 30px;
+    background-color: whitesmoke;
+    /* height: 520px; */
+    text-align: left;
+    position:relative;
+    z-index: 0;
+}
+
+
+
+footer {
+    padding: 30px;
+    border: solid 0px gainsboro;
+    background-color: whitesmoke;
+    height: 20px;
+    align-items: center;
+    text-align: center;
+    margin-top:40px;
+}
