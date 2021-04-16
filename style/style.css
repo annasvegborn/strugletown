@@ -9,22 +9,44 @@ h1 {
 h2 {
     margin-left: 20px;
 }
+
 h3 {
 
     color: rgb(41, 41, 41);
-    font-weight: lighter;
+    font-weight: normal;
+    font-size: 22px;
+    background-color: rgba(255, 255, 255, 0.20);
 }
 
 
+#video {
+    /* width: 920px; */
+    max-width: 100%;
+    z-index: 0;
+    border-radius: 25px;
+}
 
 #topdiv {
-    padding: 80px;
-    padding-top: 40px;
+    padding: 20px;
+    padding-top: 30px;
     background-color: whitesmoke;
-    height: 220px;
-    align-items: center;
+    /* height: 520px; */
     text-align: center;
+    position:relative;
+    z-index: 0;
+}
 
+
+#topInfo {
+    max-width: 50%;
+    position:absolute;
+    top: 20%;
+    left: 25%;
+    z-index:1;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0px 5px 2px rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 25px;
 }
 
 #bottomDiv {
@@ -76,9 +98,11 @@ h3 {
 }
 
 #profile_pic {
-    height: 120px;
-    width: 120px;
+    max-width: 20%;
     border-radius: 50%;
+}
+#profile_text {
+    max-width: 80%;
 }
 
 .card {

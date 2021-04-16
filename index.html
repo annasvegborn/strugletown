@@ -8,9 +8,15 @@
   </head>
   <body>
     <div id="topdiv"> 
-      <img src="strugle_profile.jpg" alt="Strugle profile picture" id=profile_pic>
-      <h1>strugletown</h1> 
-      <h3>Welcome to the home page for all Strugle related things!</h3>
+      <div id="topInfo">
+        <img src="profile_text.png" alt="Strugle profile picture" id=profile_text>
+        <!-- <h1>strugletown</h1> 
+        <h3>Welcome to the home page for all Strugle related things!</h3> -->
+      </div>
+      <video id="video" autoplay loop muted>
+        <source src="movie1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
     <div id="tabs">
         <button class="pageTabs" onclick="showCards('cambridge')" id="cambridgeTab">Cambridge</button>
@@ -18,7 +24,7 @@
         <button class="pageTabs" onclick="showCards('comic')" id="comicTab">Comics</button>
         <button class="pageTabs" onclick="showCards('')" id="Tab">All</button>
     </div>
-    <h2>Shop</h2>
+    <h2>Links</h2>
     <div class="row">
       <div class="card cambridgeCard">
         <img class="cardPhoto" src="photo_2.png" alt="">
