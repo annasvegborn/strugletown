@@ -14,7 +14,7 @@ h3 {
 
     color: rgb(41, 41, 41);
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
     background-color: rgba(255, 255, 255, 0.20);
 }
 
@@ -38,15 +38,23 @@ h3 {
 
 
 #topInfo {
-    max-width: 45%;
+    max-width: 50%;
     position:absolute;
-    top: 17%;
+    top: 18%;
     left: 21%;
     z-index:1;
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 0px 5px 2px rgba(255, 255, 255, 0.15);
     padding: 20px;
     border-radius: 20px;
+}
+
+#profile_text {
+    /* max-width: 80%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
 }
 
 #bottomDiv {
@@ -85,10 +93,6 @@ h3 {
     margin-bottom: 1px;
 }
 
-.activeTab {
-    font-weight: bold;
-    font-size: 18;
-}
 
 .row {
     display: flex;
@@ -100,13 +104,6 @@ h3 {
 #profile_pic {
     max-width: 20%;
     border-radius: 50%;
-}
-#profile_text {
-    /* max-width: 80%; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
 }
 
 .card {
