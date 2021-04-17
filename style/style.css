@@ -1,6 +1,5 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    margin: 0;
 }
 h1 {
     text-align: center;
@@ -39,13 +38,8 @@ h3 {
 #topInfo {
     max-width: 50%;
     position:absolute;
-<<<<<<< HEAD
     top: 24%;
     left: 22%;
-=======
-    top: 18%;
-    left: 21%;
->>>>>>> parent of b3c8c91 (Move top box)
     z-index:1;
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 0px 5px 2px rgba(255, 255, 255, 0.15);
@@ -166,7 +160,4 @@ footer {
     align-items: center;
     text-align: center;
     margin-top:40px;
-    width: 100%;     
-    position: relative;
-    margin-top: -20;
 }
