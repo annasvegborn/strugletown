@@ -38,7 +38,7 @@ h3 {
 #topInfo {
     max-width: 50%;
     position:absolute;
-    top: 24%;
+    top: 18%;
     left: 22%;
     z-index:1;
     background-color: rgba(255, 255, 255, 0.95);
