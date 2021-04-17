@@ -1,7 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
-    min-height: 100%;
 }
 h1 {
     text-align: center;
@@ -163,7 +162,6 @@ footer {
     text-align: center;
     margin-top:40px;
     width: 100%;     
-    clear: both;
     position: relative;
     margin-top: -20;
 }
