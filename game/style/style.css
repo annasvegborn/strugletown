@@ -1,0 +1,372 @@
+/*x @viewport {
+    width: device-width ;
+    zoom: 2.0 ;
+  }*/
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+#swipeBox{
+    /*position:relative;
+    width: 100%;
+    height: 400px; */
+}
+h1{
+    margin: 5px;
+}
+p {
+    margin: 2px;
+}
+.popMessage {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin: 40px;
+    width: 220;
+    border: solid lightgray;
+    border-width: 3px;
+    border-radius: 2px;
+    z-index: 11;
+    background-color: whitesmoke;
+}
+.tab{
+    font-weight: bold;
+    border: solid lightgray;
+    border-radius: 3px 3px 0 0;
+    border-width: 1px 1px 0px 1px;
+    display: inline-block;
+    background-color: #e6e6e6  /* #f2f2f2; e6e6e6 */
+}
+#forthTab{
+    visibility: hidden;
+}
+#coinView{
+    padding: 3px;
+    display: none;
+    position: absolute;
+	height: 55px;
+	width: 121px;
+    border: solid lightgray;
+    border-width: 0px 2px 2px 0px;
+    border-radius: 2px;
+    z-index: 11;
+    background-color: whitesmoke;
+}
+#messageView{
+    margin-left: 35px;
+    padding: 3px;
+    display: none;
+    position: absolute;
+	height: 152px;
+	width: 244px;
+    border: solid lightgray;
+    border-width: 0px 2px 2px 2px;
+    border-radius: 2px;
+    z-index: 13;
+    background-color: whitesmoke;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+#coinDisplay {
+
+}
+#messageDisplay {
+    position: absolute;
+    text-align: left;
+}
+#bigDiv{
+    touch-action: manipulation;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+
+
+    text-align: center;
+    margin: 5px;
+    border: solid 2px lightgray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    min-width:326px;
+    max-width:600px;
+    text-align:center;
+    margin:0 auto;
+}
+#content {
+    display: inline-block;
+    position: relative;
+	height: 320px;
+	width: 320px;
+    border: solid 3px lightgray;
+    border-radius: 2px;
+}
+
+#baddie {
+	position: absolute;
+	z-index: 10;
+	width:32px;
+	height:32px;
+	background-repeat:no-repeat; 
+}
+.arrow{
+    touch-action: manipulation;
+    font-weight: bold;
+    height: 40px;
+    text-align: center;
+    margin: 2px 1px 2px 1px;
+    background-color: e6e6e6;
+    border: 1px solid lightgray;
+    /*position: absolute; */
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    /*position: relative;*/
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
+#arrowLeft {
+padding: 5px 50px 2px 50px;
+}
+#arrowRight {
+padding: 5px 50px 2px 50px;
+}
+#arrowUp {
+padding: 5px 100px 2px 100px;
+}
+#arrowDown {
+padding: 5px 100px 2px 100px;
+}
+.baddieAnna {
+	background-image: url(../img/anna.png);
+}
+.baddieAnnaWork {
+	background-image: url(../img/anna-work.png);
+}
+.baddieSebastian {
+	background-image: url(../img/sebastian.png);
+}
+.baddieSebastianWork {
+	background-image: url(../img/sebastian-work.png);
+}
+.baddieTardis {
+    background-image: url(../img/rocket.png);
+}
+.baddieMoa {
+	background-image: url(../img/moa.png);
+}
+.baddieMoaWork {
+	background-image: url(../img/moa-work.png);
+}
+.baddieUp{}
+
+.baddieRight {}
+
+.baddieLeft {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+}
+.baddiePointRight{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.baddiePointLeft{
+    transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+}
+.baddieDown {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+
+.tile, .t {
+	width: 32px;
+	height: 32px;
+	float: left;
+	background-repeat: no-repeat;
+}
+
+.grass10 {
+	background: url(../img/tiles/grass.png);
+}
+.space10 {
+    background: url(../img/tiles/space.png)
+}
+.agate10 {
+    background: url(../img/tiles/agate.png)
+}
+.grass11 {
+	background: url(../img/tiles/tree-grass.png);
+}
+.space11 {
+    background: url(../img/tiles/wall-space.png);
+}
+.agate11 {
+    background: url(../img/tiles/wall-agate.png);
+}
+.grass12 {
+	background: url(../img/tiles/obstacle-grass.png);
+}
+.space12{
+    background: url(../img/tiles/obstacle-space.png);
+}
+.agate12{
+    background: url(../img/tiles/obstacle-agate.png);
+}
+.grass13 {
+	background: url(../img/tiles/spaceship-grass.png);
+}
+.space13 {
+    background: url(../img/tiles/planet-green.png);
+}
+.agate13 {
+	background: url(../img/tiles/spaceship-agate.png);
+}
+.grass14 {
+	background: url(../img/tiles/coin-grass.png);
+}
+.space14 {
+    background: url(../img/tiles/coin-space.png);
+}
+.agate14 {
+    background: url(../img/tiles/coin-agate.png);
+}
+.grass15{
+    background: url(../img/tiles/vortex-grass.png);
+}
+.space15{
+    background: url(../img/tiles/vortex-space.png);
+}
+.grass16 {
+    background: url(../img/tiles/guard-grass.png);
+}
+.space16 {
+    background: url(../img/tiles/guard-space.png);
+}
+.grass17 {
+    background: url(../img/tiles/guard2-grass.png);
+}
+.space17 {
+    background: url(../img/tiles/guard2-space.png);
+}
+.grass18 {
+    background: url(../img/tiles/bag-grass.png);
+}
+.space18 {
+    background: url(../img/tiles/bag-space.png);
+}
+.grass19 {
+    background: url(../img/tiles/work-grass.png);
+}
+.space19 {
+    background: url(../img/tiles/work-grass.png);
+}
+.grass20 {
+    background: url(../img/tiles/planet-blue.png);
+}
+.space20 {
+    background: url(../img/tiles/planet-blue.png);
+}
+.grass21 {
+    background: url(../img/tiles/planet-orange.png);
+}
+.space21 {
+    background: url(../img/tiles/planet-orange.png);
+}
+.grass22 {
+    background: url(../img/tiles/grass.png); /* exit*/
+}
+.space22 {
+    background: url(../img/tiles/space.png);
+}
+.grass23 {
+    background: url(../img/tiles/grass.png); /* entry */
+}
+.space23 {
+    background: url(../img/tiles/space.png);
+}
+.grass24 {
+    background: url(../img/tiles/vortex2-grass.png);
+}
+.space24 {
+    background: url(../img/tiles/vortex2-space.png);
+}
+.grass25 {
+    background: url(../img/tiles/phone-grass.png);
+}
+.space25 {
+    background: url(../img/tiles/phone-space.png);
+}
+.agate25 {
+    background: url(../img/tiles/phone-agate.png);
+}
+
+#guard{
+    content:url(../img/guard.png);
+    background-size: 100%;
+}
+#guard2{
+    content:url(../img/guard2.png);
+    background-size: 100%;
+}
+#vortex{
+    content:url(../img/vortex.png);
+    background-size: 100%;
+}
+#vortex2{
+    content:url(../img/vortex2.png);
+    background-size: 100%;
+}
+#doctorWho{
+    content:url(../img/anna.png);
+    background-size: 100%;
+}
+#phone{
+    content:url(../img/phone.png);
+    background-size: 100%;
+}
+#anna, .anna{
+    content:url(../img/anna.png);
+    background-size: 100%;
+}
+#sebastian, .sebastian {
+    content:url(../img/sebastian.png);
+    background-size: 100%;
+}
+#moa, .moa{
+    content:url(../img/moa.png);
+    background-size: 100%;
+}
+#swapImg{
+    height: 10px;
+    width: 10px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    vertical-align: middle;
+}
+.profilePic {
+    height: 18.4px;
+    width: 18.4px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    vertical-align: middle;
+    
+}
+.chat{
+    font-size: 16px;
+    display: inline;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+}
