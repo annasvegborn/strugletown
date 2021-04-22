@@ -29,6 +29,9 @@ a {
     text-decoration: none;
 }
 
+#goBack{
+    max-width: 20%;
+}
 
 #video {
     /* width: 920px; */
@@ -100,6 +103,13 @@ a {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 100px;
+}
+
+#downloadsRow {
+    min-width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #profile_pic {
