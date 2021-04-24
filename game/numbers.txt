@@ -1,0 +1,32 @@
+/**
+	 * This is the game area with a 10x10 grid
+	 * 10 - nothing (grass)
+	 * 11 - wall (impassible)
+	 * 12 - obstacle (movable)
+	 * 13 - rocket (passible)
+	 * 14 - coin (movable)
+	 * 15 - vortex (movable)
+	 * 16 - guard (passable if payed)
+	 * 17 - guard 2 (passable if payed)
+	 * 18 - Bag (picked up)
+	 * 19 - Work/Wand shop 
+	 * 20 - Blue planet
+     * 21 - Orange planet
+     * 22 - Exit level
+     * 23 - Enter level
+     * 24 - Vortex 2
+     * 25 - Phone
+     * 26 - Spell object
+     * 27 - Magic teacher1
+     * 28 - Magic teacher2
+     * 29 - Spell object 2
+     * 30 - Castle
+	 * 31 - Castle wall
+	 * 32 - Castle floor
+	 * 33 - Magic teacher 3
+	 * 34 - Random person
+	 * 35 - 
+	 */
+
+
+     
