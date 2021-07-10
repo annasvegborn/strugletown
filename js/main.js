@@ -1,9 +1,14 @@
+
+var item = document.getElementById("Tab");
+item.style.fontWeight = "bold";
+
 function showCards(card)
 {
 	typeCardName = card + "Card"
 	if(typeCardName == "Card"){
 		typeCardName = "card";
 	}
+
 	var typeCard = document.getElementsByClassName(typeCardName);
 	var cards = document.getElementsByClassName("card");
 
