@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+  }
+  
+.coverImg {
+    background-image: url("../img/coverImg1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+    padding: 30px;
+    border: solid 0px gainsboro;
+    background-color: whitesmoke;
+    height: 5%;
+    text-align: center;
+}
