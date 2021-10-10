@@ -40,6 +40,12 @@ a {
     border-radius: 20px;
 }
 
+.coverImg {
+    max-width: 100%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
 #topdiv {
     padding: 20px;
     padding-top: 30px;
