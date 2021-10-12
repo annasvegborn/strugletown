@@ -37,9 +37,49 @@ body, html {
 }
 
 .card {
-  width: 30%;
+  width: 30vw;
+  height: 30vw;
   background-size: cover; /* contain */
   border-radius: 7px;
+}
+
+#gallery {
+  background-image: url("../img/cards/gallery1.jpg");
+}
+#gallery:hover {
+  background-image: url("../img/cards/gallery2.jpg");
+}
+
+#shops {
+  background-image: url("../img/cards/shops3.jpg");
+}
+#shops:hover {
+  background-image: url("../img/cards/shops4.jpg");
+}
+
+#comics {
+  background-image: url("../img/cards/comics1.jpg");
+}
+#comics:hover {
+  background-image: url("../img/cards/comics2.jpg");
+}
+#bonus {
+  background-image: url("../img/cards/bonus1.jpg");
+}
+#bonus:hover {
+  background-image: url("../img/cards/bonus2.jpg");
+}
+#social {
+  background-image: url("../img/cards/social1.jpg");
+}
+#social:hover {
+  background-image: url("../img/cards/social2.jpg");
+}
+#about {
+  background-image: url("../img/cards/about1.jpg");
+}
+#about:hover {
+  background-image: url("../img/cards/about2.jpg");
 }
 
 footer {
