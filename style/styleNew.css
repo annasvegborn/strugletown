@@ -25,18 +25,21 @@ body, html {
   flex-shrink: 3;
 }
 
-.section {
+#cards_section {
+  padding: 0 2% 6% 2%;
+}
+
+.row {
   background-color: white;
   display: flex;
-  justify-content: center;
-
+  justify-content: space-around;
+  padding-top: 5%;
 }
 
 .card {
   width: 30%;
   background-size: cover; /* contain */
-  padding: 2%;
-  border-radius: 9%;
+  border-radius: 7px;
 }
 
 footer {
