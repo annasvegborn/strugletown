@@ -13,3 +13,11 @@
 #mgl:hover {
   background-image: url("../img/shops/mgl2.jpg");
 }
+
+#kofi {
+  background-image: url("../img/shops/kofi1.jpg");
+}
+#kofi:hover {
+  background-image: url("../img/shops/kofi2.jpg");
+}
+
