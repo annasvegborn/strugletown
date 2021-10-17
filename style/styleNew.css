@@ -123,6 +123,20 @@ body, html {
   background-image: url("../img/cards/about2.jpg");
 }
 
+#cambridge {
+  background-image: url("../img/gallery/cambridge1.jpg");
+}
+#cambridge:hover {
+  background-image: url("../img/gallery/cambridge2.jpg");
+}
+
+#malmo {
+  background-image: url("../img/gallery/malmo1.jpg");
+}
+#malmo:hover {
+  background-image: url("../img/gallery/malmo2.jpg");
+}
+
 footer {
     padding: 30px;
     border: solid 0px gainsboro;
