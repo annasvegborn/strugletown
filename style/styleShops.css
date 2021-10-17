@@ -1,0 +1,15 @@
+
+
+#redbubble {
+  background-image: url("../img/shops/redbubble1.jpg");
+}
+#redbubble:hover {
+  background-image: url("../img/shops/redbubble2.jpg");
+}
+
+#mgl {
+  background-image: url("../img/shops/mgl1.jpg");
+}
+#mgl:hover {
+  background-image: url("../img/shops/mgl2.jpg");
+}

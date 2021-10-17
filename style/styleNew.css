@@ -1,11 +1,35 @@
 body, html {
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: Strugletown;
     margin:0;
   }
-  
+
+  @font-face {
+    font-family: Strugletown;
+    src: url(../Strugletown-Regular.ttf);
+  }
+  a {
+    color: #b9cab7
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+.column {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  padding-left:10%;
+  padding-right: 10%;
+
+}
+
+.aboutImg{
+  width:100%;
+}
 .coverImg {
-  background-image: url("../img/coverImg3.jpg");
 
   /* Full height */
   height: 100%;
@@ -18,6 +42,20 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#coverImgMain{
+  background-image: url("../img/coverImg3.jpg");
+}
+
+#coverImgGallery{
+  background-image: url("../img/gallery/coverGallery.jpg");
+}
+
+#coverImgShops{
+  background-image: url("../img/shops/coverShops.jpg");
+}
+#coverImgAbout{
+  background-color: #bacab8;
 }
 
 #welcome {
@@ -43,6 +81,9 @@ body, html {
   border-radius: 7px;
 }
 
+#placeholder {
+  background-image: url("../img/cards/placeholder.jpg");
+}
 #gallery {
   background-image: url("../img/cards/gallery1.jpg");
 }
@@ -88,4 +129,6 @@ footer {
     background-color: whitesmoke;
     height: 5%;
     text-align: center;
+    color: gray;
+    font-size: 22px;
 }
