@@ -88,10 +88,11 @@ a {
 
 #tabs {
     background-color: whitesmoke;
-    height: 30px;
+    height: 20px;
     align-items: center;
     text-align: center;
     border: solid 0px whitesmoke;
+    color: #424242;
 }
 
 .pageTabs {
