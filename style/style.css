@@ -115,9 +115,10 @@ a {
 .row {
     display: inline-flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* justify-content: space-around; */
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 100px;
 }
 
