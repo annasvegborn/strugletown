@@ -88,7 +88,7 @@ a {
 
 #tabs {
     background-color: whitesmoke;
-    height: 20px;
+    height: 30px;
     align-items: center;
     text-align: center;
     border: solid 0px whitesmoke;
@@ -96,6 +96,7 @@ a {
 }
 
 .pageTabs {
+    color: #424242;
     text-align: center;
     text-decoration: none;
     background-color: white;
@@ -105,7 +106,7 @@ a {
     border-radius: 10px 10px 0 0;
     font-family: Strugletown;
     /*font-family: Verdana;*/
-    font-size: 25px;
+    font-size: 20px;
     border: solid 0px whitesmoke;
     margin-bottom: 1px;
 }
