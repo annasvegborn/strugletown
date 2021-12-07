@@ -37,6 +37,8 @@ a {
 
 #goBack{
     max-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #video {
