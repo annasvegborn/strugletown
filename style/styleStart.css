@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+#message {
+    color: #424242;
+    display: contents;
+    
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#messageBox {
+    border: solid 0px gainsboro;
+    width: 460px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 20px;
+    box-shadow: 0 0px 12px 2px rgba(34, 61, 95, 0.15);
+    text-align: center;
+    flex-grow: 4;
+}
+
+#messageButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.messageButton {
+    flex-grow: 4;
+    
+    max-width: 180px;
+    font-weight: normal;
+    font-size: 24px;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    border: solid 0px gainsboro;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 2px rgba(34, 61, 95, 0.10);
+}
+
+#strugleImg {
+    height: 210px;
+}
+
+
+

@@ -1,29 +1,127 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <link rel="stylesheet" href="style/styleNew.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     
     <title>Strugletown</title>
   </head>
   <body>
-    <div class="coverImg" id="coverImgMain">
-      <img id="welcome" src="img/welcome.png">
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
     </div>
-    <div id="cards_section">
-      <div class="row">
-        <a href="pages/gallery.html"><div class="card" id="gallery"></div></a>
-        <a href="pages/shops.html"><div class="card" id="shops"></div></a>
-        <a href="pages/bonus.html"><div class="card" id="bonus"></div></a>
-      </div>
-      <div class="row">
-        <a href="pages/social.html"><div class="card" id="social"></div></a>
-        <a href="pages/about.html"><div class="card" id="about"></div></a>
-        <a href=""><div class="card" id="empty"></div></a>
-      </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108594731483343");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v13.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <div id="topdiv"> 
+      <img class="coverImg" src="img/cover21-min.png">
+      <img class="coverImg" src="img/cover22-min.png">
+      <img class="coverImg" src="img/cover23-min.png">
+    </div>
+    <div id="tabs">
+        <button class="pageTabs" onclick="showCards('cambridge')" id="cambridgeTab">Cambridge</button>
+        <button class="pageTabs" onclick="showCards('malmo')" id="malmoTab">Malmo</button>
+        <button class="pageTabs" onclick="showCards('comic')" id="comicTab">Comics</button>
+        <button class="pageTabs" onclick="showCards('')" id="Tab">All</button>
+    </div>
+    <h2></h2>
+    <div class="row">
+      <!-- <div class="card cambridgeCard">
+        <img class="cardPhoto" src="about.jpg" alt="">
+        <p class="cardHeadline">About</p>
+        <p class="cardDescription">The story behind Strugle.</p>
+        <a href="about/index.html"><div class=linkButton><p class="linkText">Go to page</p></div></a>
+      </div> 
+      <a href="https://www.redbubble.com/shop/ap/81846660?asc=u">
+        <div class="card cambridgeCard">
+          <img class="cardPhoto" src="img/kp.png" alt="">
+          <p class="cardHeadline">King's Parade</p>
+          <p class="cardDescription">Here you can shop the King's Parade print.</p>
+          <div class=linkButton><p class="linkText">Go to page</p></div>
+        </div>
+      </a> -->
+      <a href="https://www.redbubble.com/people/camstruggles/explore?asc=u&page=1&sortOrder=top%20selling">
+        <div class="card cambridgeCard">
+          <img class="cardPhoto" src="img/cards/rb_cam.PNG" alt="">
+          <p class="cardHeadline">Shop Cambridge</p>
+        </div>
+      </a>
+      <a href="https://ko-fi.com/s/60e4800b0c">
+        <div class="card cambridgeCard">
+          <img class="cardPhoto" src="img/cards/colouring.jpg" alt="">
+          <p class="cardHeadline">Colouring Cambridge</p>
+        </div>
+      </a>
+      <a href="https://malmolocals.shop/collections/strugletown">
+        <div class="card malmoCard">
+          <img class="cardPhoto" src="img/cards/mgl.PNG" alt="">
+          <p class="cardHeadline">Malmo Locals Totebags</p>
+        </div>
+      </a>
+      <a href="https://www.redbubble.com/people/camstruggles/shop?artistUserName=camstruggles&asc=u&collections=2230909&iaCode=all-departments&sortOrder=recent">
+        <div class="card malmoCard">
+          <img class="cardPhoto" src="img/cards/rb_mal.JPG" alt="">
+          <p class="cardHeadline">Shop Malmo</p>
+        </div>
+      </a>
+      <a href="https://ko-fi.com/strugletown">
+        <div class="card cambridgeCard malmoCard comicCard">
+          <img class="cardPhoto" src="img/cards/kofi.PNG" alt="">
+          <p class="cardHeadline">Support Strugle</p>
+        </div>
+      </a>
+      <a href="downloads/downloads.html">
+        <div class="card cambridgeCard malmoCard comicCard">
+          <img class="cardPhoto" src="img/cards/downloads.PNG" alt="">
+          <p class="cardHeadline">Bonus<br>Content</p>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/strugletown/">
+        <div class="card malmoCard">
+          <img class="cardPhoto" src="img/cards/insta1.PNG" alt="">
+          <p class="cardHeadline">Strugletown Instagram</p>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/cambridgestruggles">
+        <div class="card cambridgeCard">
+          <img class="cardPhoto" src="img/cards/fb1.PNG" alt="">
+          <p class="cardHeadline">Facebook</p>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/cambridgestruggles/">
+        <div class="card cambridgeCard comicCard">
+          <img class="cardPhoto" src="img/cards/insta2.PNG" alt="">
+          <p class="cardHeadline">Cambridge Instagram</p>
+        </div>
+      </a>
     </div>
     <footer>Made by Strugle herself.</footer>
-    <script type="text/javascript" src="js/mainNew.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

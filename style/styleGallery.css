@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    height:600px;
+    margin:20px;
+}
