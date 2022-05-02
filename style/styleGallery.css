@@ -4,6 +4,7 @@
 }
 
 .gallery {
-    max-height: 600px;
     margin: 20px;
+    flex-shrink: 2;
+    max-width: 70vw;
 }
