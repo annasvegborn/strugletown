@@ -6,6 +6,6 @@
 .gallery {
     margin: 20px;
     flex-shrink: 2;
-    max-width: 500px;
-    /*max-width: 100vw;*/
+    height: 500px;
+    max-width: 100vw;
 }
