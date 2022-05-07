@@ -11,6 +11,7 @@ html, body {
     padding: 0px;
     background-color: #c7e4ff;
     margin: 0px;
+    height: 100vh;
     /* position: fixed; */
     
     height: -webkit-fill-available;
