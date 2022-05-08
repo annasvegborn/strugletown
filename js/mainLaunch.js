@@ -4,6 +4,16 @@ document.ontouchmove = function(event){
 
 
 
+
+function syncHeight() {
+    document.documentElement.style.setProperty(
+        '--window-inner-height',
+        `${window.innerHeight}px`
+    );
+}
+
+window.addEventListener('resize', syncHeight);
+
 let scrollY; // we'll store the scroll position here
 
 const modal = document.querySelector('html');
