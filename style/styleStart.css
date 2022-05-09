@@ -13,7 +13,7 @@ html, body {
     margin: 0px;
     height: 100vh;
     /* position: fixed; */
-    letter-spacing: 4px;
+    letter-spacing: -4px;
     
     height: -webkit-fill-available;
 }
