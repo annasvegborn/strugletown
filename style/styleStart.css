@@ -14,7 +14,7 @@ html, body {
     /* height: 100vh; */
     height: var(--height);
     /* position: fixed; */
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
     
     height: -webkit-fill-available;
 }
