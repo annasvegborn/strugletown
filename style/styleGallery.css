@@ -43,7 +43,7 @@ body {
 }
 
 #extraBody {
-    background-color: #a4c382;
+    background-color: linear-gradient(#c7e4ff, #a4c382);
 }
 
 .galleryBottom {
