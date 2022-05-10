@@ -35,11 +35,14 @@ h1 {
 }
 
 html {
-    background-color: #c7e4ff;
     overflow-x: hidden;
 }
 body {
     overflow-x: hidden;
+    background-color: #c7e4ff;
+}
+
+#extraBody {
     background-color: #a4c382;
 }
 
