@@ -1,3 +1,5 @@
+
+
 .row {
     display: flex;
     justify-content: center;
@@ -33,6 +35,10 @@ h1 {
 }
 
 html {
+    background-color: #c7e4ff;
+    overflow-x: hidden;
+}
+.extraBody {
     background-color: #a4c382;
 }
 
@@ -40,8 +46,4 @@ html {
     height: 100px;
     padding-bottom: 30px;
     text-align: center;
-}
-
-img {
-    pointer-events: none;
 }

@@ -101,5 +101,7 @@ a {
     margin: 1vh 0 1vh 0;
 }
 
-
+img {
+    pointer-events: none;
+}
 
