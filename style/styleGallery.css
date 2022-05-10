@@ -38,7 +38,8 @@ html {
     background-color: #c7e4ff;
     overflow-x: hidden;
 }
-.extraBody {
+body {
+    overflow-x: hidden;
     background-color: #a4c382;
 }
 
