@@ -34,10 +34,7 @@ h1 {
 
 }
 
-html {
-    overflow-x: hidden;
-}
-body {
+body, html {
     overflow-x: hidden;
     /* background-color: linear-gradient(#c7e4ff, #a4c382);
     background: -moz-linear-gradient(top,  rgba(164,195,130,1) 34%,rgba(199,228,255,1) 35%); */
