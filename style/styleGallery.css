@@ -40,6 +40,9 @@ body, html {
     background: -moz-linear-gradient(top,  rgba(164,195,130,1) 34%,rgba(199,228,255,1) 35%); */
 
     background-color: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
+
+    background: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
+
     
     /*
     background: rgba(199,228,255,1);
