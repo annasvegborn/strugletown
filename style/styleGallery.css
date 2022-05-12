@@ -38,6 +38,7 @@ body, html {
     overflow-x: hidden;
     background-color: #c7e4ff;
     height: -webkit-fill-available;
+    padding: 0;
 }
 
 #extraBody {
