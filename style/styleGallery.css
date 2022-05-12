@@ -36,29 +36,8 @@ h1 {
 
 body, html {
     overflow-x: hidden;
-    background: linear-gradient(#c7e4ff 10%, green 15%);
-
-    background: -webkit-linear-gradient(#c7e4ff 10%, green 15%);
-
+    background-color: #c7e4ff;
     height: -webkit-fill-available;
-
-    /* background-color: linear-gradient(#c7e4ff, #a4c382);
-    background: -moz-linear-gradient(top,  rgba(164,195,130,1) 34%,rgba(199,228,255,1) 35%); 
-    
-
-    background-color: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
-
-    background: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
-   
-    
-    background: rgba(199,228,255,1);
-    background: -moz-linear-gradient(top,  rgba(245,245,245,1) 34%,rgba(199,228,255,1) 35%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(34%,rgba(245,245,245,1)), color-stop(35%,rgba(199,228,255,1)));
-    background: -webkit-linear-gradient(top,  rgba(245,245,245,1) 34%,rgba(199,228,255,1) 35%);
-    background: -o-linear-gradient(top,  rgba(245,245,245,1) 34%,rgba(199,228,255,1) 35%);
-    background: -ms-linear-gradient(top,  rgba(245,245,245,1) 34%,rgba(199,228,255,1) 35%);
-    background: linear-gradient(to bottom, rgba(245,245,245, 1) 34%,rgba(199,228,255,1) 35%);
-    */
 }
 
 #extraBody {
