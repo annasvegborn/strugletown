@@ -37,7 +37,7 @@ h1 {
 body, html {
     overflow-x: hidden;
     /*background-color: #c7e4ff;*/
-    background: -webkit-linear-gradient(aqua, green)
+    background: -webkit-linear-gradient(aqua, green);
     height: -webkit-fill-available;
     height: -moz-available;
     height: fill-available;
