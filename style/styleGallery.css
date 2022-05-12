@@ -36,8 +36,9 @@ h1 {
 
 body, html {
     overflow-x: hidden;
-    /*background-color: #c7e4ff;*/
-    background-color: -webkit-linear-gradient(aqua, green);
+    background-color: #c7e4ff;
+    background-image: linear-gradient(to top, #c7e4ff, whitesmoke);
+    background-color: -webkit-linear-gradient(#c7e4ff, whitesmoke);
     height: -webkit-fill-available;
     height: -moz-available;
     height: fill-available;
@@ -52,6 +53,7 @@ body, html {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bottomButton {
@@ -69,9 +71,6 @@ body, html {
     padding: 0;
 }
 
-.space {
-    height: 150px;
-}
 
 .extraFooter {
     padding: 30px;
@@ -84,5 +83,4 @@ body, html {
     position: realtive;
     font-size: 20px;
     color: gray;
-    width: 100vw;
 }
