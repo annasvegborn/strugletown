@@ -38,6 +38,8 @@ body, html {
     overflow-x: hidden;
     background-color: #c7e4ff;
     height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
     padding: 0;
 }
 
