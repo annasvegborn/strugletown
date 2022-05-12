@@ -36,9 +36,9 @@ h1 {
 
 body, html {
     overflow-x: hidden;
-    background-color: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
+    background-color: linear-gradient(#c7e4ff 10%, green 15%);
 
-    background: -webkit-linear-gradient(#c7e4ff 55%, whitesmoke 56%);
+    background: -webkit-linear-gradient(#c7e4ff 10%, green 15%);
 
     height: -webkit-fill-available;
 
