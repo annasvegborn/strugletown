@@ -90,12 +90,13 @@ body, html {
 footer {
     padding: 30px;
     border: solid 0px gainsboro;
-    background-color: whitesmoke;
+    background-color: grey;
     height: 20px;
     align-items: center;
     text-align: center;
     margin-top:40px;
-    position: realtive; 
+    position: realtive;
+    display: inline;
     font-size: 20px;
     color: gray;
     width: 100vw;
