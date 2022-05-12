@@ -36,7 +36,7 @@ h1 {
 
 body, html {
     overflow-x: hidden;
-    background-color: #c7e4ff;
+    background-color: linear-gradient(#c7e4ff 55%, whitesmoke 56%);
     height: -webkit-fill-available;
 
     /* background-color: linear-gradient(#c7e4ff, #a4c382);
@@ -87,7 +87,7 @@ body, html {
     height: 150px;
 }
 
-footer {
+#extraBody footer {
     padding: 30px;
     border: solid 0px gainsboro;
     background-color: grey;
