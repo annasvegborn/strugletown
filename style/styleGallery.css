@@ -1,4 +1,21 @@
 
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    padding: 0;
+}
+
+body {
+    background-color: #c7e4ff;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#extraBody {
+    background-color: #a4c382;
+}
 
 .row {
     display: flex;
@@ -32,21 +49,6 @@ h1 {
     font-size: 42px;
     color:rgba(36, 36, 36)
 
-}
-
-body, html {
-    overflow-x: hidden;
-    background-color: #c7e4ff;
-    background-image: linear-gradient(to top, #c7e4ff, whitesmoke);
-    background-color: -webkit-linear-gradient(#c7e4ff, whitesmoke);
-    height: -webkit-fill-available;
-    height: -moz-available;
-    height: fill-available;
-    padding: 0;
-}
-
-#extraBody {
-    background-color: #a4c382;
 }
 
 .galleryBottom {
