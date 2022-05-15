@@ -2,6 +2,7 @@ html {
     height: 100%;
     font-family: Strugletown;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 @font-face {
@@ -17,6 +18,8 @@ body {
     position:relative; 
     padding-bottom: 20px;
     overflow-x: hidden;
+    height: 100%;
+    overflow-y: auto;
 }
 h1 {
     text-align: center;
@@ -228,7 +231,7 @@ a {
     color:#424242;
 }
 
-footer {
+.footer {
     padding: 30px;
     border: solid 0px gainsboro;
     background-color: whitesmoke;
@@ -236,11 +239,15 @@ footer {
     align-items: center;
     text-align: center;
     margin-top:40px;
-    position: absolute; 
-    left: 0 ; right: 0; bottom: 0; 
+    /*position: absolute; 
+    left: 0 ; right: 0; bottom: 0; */
+    position: relative;
+    bottom: 0;
+    width:100%;
     font-size: 20px;
     color: gray;
 }
+
 
 img {
     pointer-events: none;
