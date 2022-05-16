@@ -257,3 +257,13 @@ a {
 img {
     pointer-events: none;
 }
+
+#preloader_box {
+    z-index: 6;
+    height: 150vh;
+    width: 150vw;
+    background-color: white;
+    position: fixed;
+    left: 0 ; right: 0; top: 0;
+    padding: 20px;
+}
