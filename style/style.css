@@ -22,7 +22,7 @@ body {
     overflow-y: auto;
 
     overscroll-behavior-y: none;
-    -webkit-overflow-scrolling: auto;
+    -webkit-overflow-scrolling: none;
 }
 h1 {
     text-align: center;
@@ -246,6 +246,7 @@ a {
     left: 0 ; right: 0; bottom: 0; */
     position: relative;
     bottom: 0;
+    padding-bottom: 20px;
     width:100%;
     font-size: 20px;
     color: gray;
