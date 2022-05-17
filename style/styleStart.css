@@ -6,8 +6,6 @@
 html {
     font-family: Strugletown;
     color: #424242;
-    padding: 0px;
-    margin: 0px;
     height: var(--height);
     overflow: hidden;
     letter-spacing: -1px;
@@ -17,7 +15,9 @@ html {
 
 body {
     background-color: #c7e4ff;
-    background: linear-gradient(#c7e4ff, whitesmoke);
+    /* background: linear-gradient(#c7e4ff, whitesmoke); */
+    padding: 0;
+    margin: 0;
     height: var(--height);
     overflow: hidden;
     height: -webkit-fill-available;

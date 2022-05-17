@@ -1,7 +1,10 @@
-body {
+
+html, body {
     background-color: white;
+    background: linear-gradient(white, white);
 }
 
 #topdiv {
     background-color: whitesmoke;
+    padding-top: 20px;
 }
