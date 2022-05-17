@@ -3,20 +3,23 @@
     src: url(../Strugletown-Regular.ttf);
   }
 
-html, body {
-    /* height: 100%; */
+html {
     font-family: Strugletown;
     color: #424242;
     padding: 0px;
-    background-color: #c7e4ff;
-    background: linear-gradient(#c7e4ff, whitesmoke);
     margin: 0px;
-    /* height: 100vh; */
     height: var(--height);
-    /* position: fixed; */
     overflow: hidden;
     letter-spacing: -1px;
     
+    height: -webkit-fill-available;
+}
+
+body {
+    background-color: #c7e4ff;
+    background: linear-gradient(#c7e4ff, whitesmoke);
+    height: var(--height);
+    overflow: hidden;
     height: -webkit-fill-available;
 }
 
