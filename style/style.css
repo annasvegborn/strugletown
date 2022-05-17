@@ -3,6 +3,8 @@ html {
     font-family: Strugletown;
     overflow-x: hidden;
     overflow-y: hidden;
+    background-color: #c7e4ff;
+    background: linear-gradient(#c7e4ff, whitesmoke);
 }
 
 @font-face {
