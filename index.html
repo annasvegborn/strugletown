@@ -2,135 +2,26 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="stylesheet" href="style/style.css"> -->
+    <link rel="stylesheet" href="style/styleStart.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     
     <title>Strugletown</title>
   </head>
   <body>
-    <div id="preloader_box"><h2>Loading...</h2></div>
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "108594731483343");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v13.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-    
-    <div id="topdiv">
-      <img class="coverImg" src="img/cover_launchD-min.png">
-      <!-- <img class="coverImg" src="img/cover21-min.png">
-      <img class="coverImg" src="img/cover22-min.png">
-      <img class="coverImg" src="img/cover23-min.png"> -->
-    </div>
-    <div id="tabs">
-        <button class="pageTabs" onclick="showCards('cambridge')" id="cambridgeTab">Cambridge</button>
-        <button class="pageTabs" onclick="showCards('malmo')" id="malmoTab">Malmo</button>
-        <button class="pageTabs" onclick="showCards('comic')" id="comicTab">Comics</button>
-        <button class="pageTabs" onclick="showCards('')" id="Tab">All</button>
-    </div>
-    <div class="white">
-      <h2 class="white"></h2>
-      <div class="row white">
-        <a href="https://www.redbubble.com/people/camstruggles/explore?asc=u&page=1&sortOrder=top%20selling">
-          <div class="card cambridgeCard">
-            <img class="cardPhoto" src="img/cards/rb_cam.PNG" alt="">
-            <p class="cardHeadline">Shop Cambridge</p>
-          </div>
-        </a>
-        <a href="https://ko-fi.com/s/60e4800b0c">
-          <div class="card cambridgeCard">
-            <img class="cardPhoto" src="img/cards/colouring.jpg" alt="">
-            <p class="cardHeadline">Colouring Cambridge</p>
-          </div>
-        </a>
-        <a href="https://malmolocals.shop/collections/strugletown">
-          <div class="card malmoCard">
-            <img class="cardPhoto" src="img/cards/mgl.PNG" alt="">
-            <p class="cardHeadline">Malmo Locals Totebags</p>
-          </div>
-        </a>
-        <a href="https://www.redbubble.com/people/camstruggles/shop?artistUserName=camstruggles&asc=u&collections=2230909&iaCode=all-departments&sortOrder=recent">
-          <div class="card malmoCard">
-            <img class="cardPhoto" src="img/cards/rb_mal.JPG" alt="">
-            <p class="cardHeadline">Shop Malmo</p>
-          </div>
-        </a>
-        <a href="https://ko-fi.com/strugletown">
-          <div class="card cambridgeCard malmoCard comicCard">
-            <img class="cardPhoto" src="img/cards/kofi.PNG" alt="">
-            <p class="cardHeadline">Support Strugle</p>
-          </div>
-        </a>
-        <a href="downloads/downloads.html">
-          <div class="card cambridgeCard malmoCard comicCard">
-            <img class="cardPhoto" src="img/cards/downloads.PNG" alt="">
-            <p class="cardHeadline">Bonus<br>Content</p>
-          </div>
-        </a>
-        <a href="https://www.instagram.com/strugletown/">
-          <div class="card malmoCard">
-            <img class="cardPhoto" src="img/cards/insta1.PNG" alt="">
-            <p class="cardHeadline">Strugletown Instagram</p>
-          </div>
-        </a>
-        <a href="https://www.facebook.com/cambridgestruggles">
-          <div class="card cambridgeCard">
-            <img class="cardPhoto" src="img/cards/fb1.PNG" alt="">
-            <p class="cardHeadline">Facebook</p>
-          </div>
-        </a>
-        <a href="https://www.instagram.com/cambridgestruggles/">
-          <div class="card cambridgeCard comicCard">
-            <img class="cardPhoto" src="img/cards/insta2.PNG" alt="">
-            <p class="cardHeadline">Cambridge Instagram</p>
-          </div>
-        </a>
-        <a href="indexComics.html">
-          <div class="card comicCard">
-            <img class="cardPhoto" src="img/cards/comic.png" alt="">
-            <p class="cardHeadline">Comics<br>Gallery</p>
-          </div>
-        </a>
-        <a href="indexCambridge.html">
-          <div class="card cambridgeCard">
-            <img class="cardPhoto" src="img/cards/cambridge.png" alt="">
-            <p class="cardHeadline">Cambridge<br>Gallery</p>
-          </div>
-        </a>
-        <a href="indexMalmo.html">
-          <div class="card malmoCard">
-            <img class="cardPhoto" src="img/cards/malmo.png" alt="">
-            <p class="cardHeadline">Malmo-Lund<br>Gallery</p>
-          </div>
-        </a>
+    <div id="backgroundDiv"> 
+      <img id="backgroundImg" class="backgroundImg" src="img/cover_launch-min.png">
+      <div id="messageBox">
+        <h1>Welcome to Strugletown!</h1>
+        <h2>Is this your first time here?</h2>
+        <div id="messageButtons">
+          <div class="messageButton"><a href="indexLaunchGallery.html"><h3 class="buttonAns">Yes</h3> Show me something interesting</a></div>
+          <div class="messageButton"><a href="indexHome.html"><h3 class="buttonAns">No</h3> Take me to the landing page</a></div>
+        </div>
       </div>
-      <div class="footer">Made by Strugle herself.</div>
     </div>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/preloader.js"></script>
+    <script type="text/javascript" src="js/mainLaunch.js"></script>
+    <!-- <footer>Made by Strugle herself.</footer> -->
   </body>
+  
 </html>

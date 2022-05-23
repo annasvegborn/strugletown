@@ -96,3 +96,12 @@ h1 {
     left: 0 ; right: 0; top: 0;
     padding: 20px;
 }
+
+.guideText {
+    font-size: 30px;
+    text-align: center;
+}
+
+.visibleLink {
+    text-decoration: underline;
+}
