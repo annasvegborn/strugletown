@@ -265,3 +265,8 @@ img {
     left: 0 ; right: 0; top: 0;
     padding: 20px;
 }
+
+.infoText {
+    text-align: center;
+    font-size: 25px;
+}
