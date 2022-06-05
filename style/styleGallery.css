@@ -22,6 +22,23 @@ body {
     justify-content: center;
 }
 
+#row2, #row3, #row4, #row5, #row6 {
+    display: None;
+}
+
+#load3, #load4, #load5, #load6 {
+    display: None;
+    cursor: default;
+}
+
+#load2 {
+    cursor: default;
+}
+
+
+
+
+
 .gallery {
     margin: 15px;
     flex-shrink: 2;
