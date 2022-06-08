@@ -8,9 +8,10 @@ function loadImgages(row){
 	document.getElementById(id).style.display = "flex";
     document.getElementById(text).style.display = "none";
 
-    if(rowNr <= 5){
+    
         newNr = parseInt(rowNr) + 1;
         newtext = "load" + newNr;
+    if(document.getElementById(newtext) != null){
         document.getElementById(newtext).style.display = "block";
     }
 
