@@ -15,6 +15,7 @@ body {
 
 #extraBody {
     background-color: #a4c382;
+    /*background-image: linear-gradient(180deg, rgba(164,195,130,1) 26%, rgba(255,255,255,1) 43%);*/
 }
 
 .row {
