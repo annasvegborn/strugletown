@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/styleBonus.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+
+    <title>Strugletown</title>
+  </head>
+  <body>
+    <body>
+      <!-- Messenger Chat Plugin Code -->
+      <div id="fb-root"></div>
+  
+      <!-- Your Chat Plugin code -->
+      <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+  
+      <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "108594731483343");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+  
+      <!-- Your SDK code -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v13.0'
+          });
+        };
+  
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+  <div class="white"> 
+    <div id="topdiv"> 
+      <a href="../index.html"><img src="../logo.png" id="goBack"></a>
+    </div>
+    <!--
+    <div id="tabs">
+        <button class="pageTabs" onclick="showCards('cambridge')" id="cambridgeTab">Cambridge</button>
+        <button class="pageTabs" onclick="showCards('malmo')" id="malmoTab">Malmö</button>
+        <button class="pageTabs" onclick="showCards('comic')" id="comicTab">Comics</button>
+        <button class="pageTabs" onclick="showCards('')" id="Tab">All</button>
+    </div>
+    -->
+    
+    <h1 class="headline">AR filters</h1>
+    <p class="infoText">These AR filters work with the King's Parade print</p>
+    <div class="row" id="AR_row">
+      <a href="https://www.instagram.com/ar/216053157260471/">
+        <div class="card">
+          <img class="cardPhoto" src="kp_halloween_AR.png" alt="">
+          <p class="cardHeadline">KP Halloween Instagram</p>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/ar/216053157260471/">
+        <div class="card">
+          <img class="cardPhoto" src="kp_halloween_AR.png" alt="">
+          <p class="cardHeadline">KP Halloween Facebook</p>
+        </div>
+      </a>
+    </div>
+    <p class="infoText">These AR filters can be used with all Cambridge prints</p>
+    <div class="row" id="AR_row">
+      <a href="https://www.instagram.com/ar/471055491517240/">
+        <div class="card">
+          <img class="cardPhoto" src="rain_AR.png" alt="">
+          <p class="cardHeadline">Rain <br>Instagram</p>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/fbcameraeffects/tryit/471055491517240/">
+        <div class="card">
+          <img class="cardPhoto" src="rain_AR.png" alt="">
+          <p class="cardHeadline">Rain <br>Facebook</p>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/ar/778705763308208/">
+        <div class="card">
+          <img class="cardPhoto" src="pride_AR.png" alt="">
+          <p class="cardHeadline">Pride <br>Instagram</p>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/fbcameraeffects/tryit/778705763308208/">
+        <div class="card">
+          <img class="cardPhoto" src="pride_AR.png" alt="">
+          <p class="cardHeadline">Pride <br>Facebook</p>
+        </div>
+      </a>
+    </div>
+    <p class="infoText">This AR filters works with the Strugletown business card</p>
+    <div class="row" id="AR_row">
+      <a href="https://www.instagram.com/ar/707269880520639/?ch=M2VjMjZmODA4MDAzZDMzYTYyMzM5MGZhNDhhNmU3MDQ%3D">
+        <div class="card">
+          <img class="cardPhoto" src="cambridge_card_AR.png" alt="">
+          <p class="cardHeadline">Cambridge Small Card</p>
+        </div>
+      </a>
+    </div>
+    <p class="infoText">The AR filters require you to have the Instagram or Facebook app downloaded to your phone.</p>
+    <div class="row" id="last_row">
+      <p>More content is being added to this page. </p>
+    </div>
+    <div class="footer">Made by Strugle herself. <br><br> contact@strugletown.com </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html> 

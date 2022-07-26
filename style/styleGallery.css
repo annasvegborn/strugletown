@@ -93,17 +93,17 @@ h1 {
 
 
 .extraFooter {
-    padding: 30px;
-    border: solid 0px grey;
+    padding: 20px;
     background-color: whitesmoke;
-    height: 20px;
+    height: 40px;
     align-items: center;
     text-align: center;
-    margin-top:40px;
+    margin-top:20px;
     position: realtive;
     font-size: 20px;
     color: gray;
 }
+
 
 #preloader_box {
     z-index: 6;

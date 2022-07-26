@@ -150,13 +150,7 @@ a {
     justify-content: center;
     margin-bottom: 10px;
 }
-#AR_row {
-    min-width: 100%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 50px;
-}
+
 
 #last_row {
     min-width: 100%;
@@ -234,13 +228,13 @@ a {
 }
 
 .footer {
-    padding: 30px;
+    padding: 20px;
     border: solid 0px gainsboro;
     background-color: whitesmoke;
-    height: 20px;
+    height: 40px;
     align-items: center;
     text-align: center;
-    margin-top:40px;
+    margin-top: 20px;
     /*position: absolute; 
     left: 0 ; right: 0; bottom: 0; */
     position: relative;
